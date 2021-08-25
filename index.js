@@ -101,24 +101,6 @@ const init = () => {
     .then((answers) => {
       writeFileAsync("README.md", generateREADME(answers));
       console.log("Successfully wrote to README.md");
-      if (answers.contribute === true) {
-        answers.contribute =
-          "Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see linked contributor code of conduct. https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md";
-      } else {
-        answers.contribute = "We don't want contributors at this time.";
-      }
-
-      if ((answers.license = "MIT")) {
-        answers.license = "[MIT](https://choosealicense.com/licenses/mit/)";
-      } else if ((answers.license = "GNU GPLv3")) {
-        answers.license =
-          "[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)";
-      } else if ((answers.license = "Apache License 2.0")) {
-        answers.license =
-          "[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)";
-      } else {
-        ("[ISC](https://choosealicense.com/licenses/isc/)");
-      }
     })
     .catch((err) => console.error(err));
 };
