@@ -1,8 +1,8 @@
-# b
+# c
 ## Description
-b.
-Link to the Github repository:b
-Deployed application b
+c.
+Link to the Github repository:c
+Deployed application c
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,15 +11,15 @@ Deployed application b
 - [Tests](#tests)
 - [Contact Information](#contact)
 ## Installation
-b.
+c.
 ## Usage
-b.
+c.
 ## License
 MIT
 ## Contributing
 false
 ## Tests
-b
+c
 ## Contact
-GitHub profile: https://github.com/b
-Email: b
+GitHub profile: https://github.com/c
+Email: c
