@@ -41,7 +41,7 @@ const promptUser = () => {
     {
       type: "input",
       name: "description",
-      message: "Summarize what your project does",
+      message: "Summarize what your project does:",
     },
     {
       type: "input",
@@ -64,7 +64,7 @@ const promptUser = () => {
       message: "Deployed Link:",
     },
     {
-      type: "input",
+      type: "list",
       name: "contribute",
       message: "Allow others to contribute?",
       choices: ["Yes", "No"],
