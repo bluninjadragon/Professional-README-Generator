@@ -7,8 +7,8 @@ const generateREADME = (answers) =>
   `# ${answers.title}
 ## Description
 ${answers.description}.
-Link to the Github repository:${answers.repo}
-Deployed application ${answers.deployed}
+Link to the Github repository: ${answers.repo}
+Deployed application: ${answers.deployed}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -64,9 +64,10 @@ const promptUser = () => {
       message: "Deployed Link:",
     },
     {
-      type: "confirm",
+      type: "input",
       name: "contribute",
       message: "Allow others to contribute?",
+      choices: ["Yes", "No"],
     },
     {
       type: "list",
