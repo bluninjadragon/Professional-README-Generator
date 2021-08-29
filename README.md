@@ -1,41 +1,25 @@
-# HW 9 README Generator
-
+# HW 18 Workout Tracker
 ## Description
-
-Creates a Read Me file for future projects.
-Link to the Github repository: https://github.com/bluninjadragon/Professional-README-Generator
-Deployed application: https://drive.google.com/file/d/1IeaKo30HIMfIFhIfV3Edlqt6MrWIYV-t/view?usp=sharing
-
+Allows a user to record various workouts and aggregates the distance and weights used over the course of 7 days in a dashboard.
+Link to the Github repository: N/A
+Deployed application: N/A
 ## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Contact Information](#contact)
-
 ## Installation
-
-install: npm i inquirer, Command Line: node index.js.
-
+1.) npm i 2.) npm run start.
 ## Usage
-
-running the command line will ask user series of prompts that will be used in the read me file.
-
+This will be deployed on Heroku. User uses the website to enter in a workout through the form, and clicks through each link that will allow them to view various data points.
 ## License
-
 MIT
-
 ## Contributing
-
-Yes
-
+No
 ## Tests
-
 N/A
-
 ## Contact
-
 GitHub profile: https://github.com/bluninjadragon
 Email: jwhsieh91@gmail.com
